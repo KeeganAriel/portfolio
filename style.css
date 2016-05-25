@@ -59,6 +59,11 @@ body {
 .headtext1 p {
 	margin-bottom: .3em;
 	text-align: left;
+	background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+	height: 111px;
+    width: 716px;
 }	
 /*
 } 
