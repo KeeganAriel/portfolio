@@ -39,6 +39,10 @@ body {
 	bottom: 0; 
 }
 
+header {
+	padding-bottom: 10em;
+}
+
 .mylogo {
 	display: flex;
 	width: 20em;
@@ -50,29 +54,35 @@ body {
 	font-family: 'Josefin Slab', serif;
 	font-size: 3.4em;
 	position: absolute;
-	width: 14em;
-    height: auto;
     margin-top: -9.5em;
     margin-left: 1.7em;
 }
 
 .headtext1 p {
-	margin-bottom: .3em;
 	text-align: left;
 	background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-	height: 111px;
-    width: 716px;
-}	
-/*
-} 
-.headtext2 {
+
+
+}
+
+.line1 {
 	font-family: 'Josefin Slab', serif;
-	font-size: 3.5em;
-	position: absolute;*/
+	margin-bottom: .3em;
+    width: 41%;
+    padding-left: 0.3em;
+    margin-left: 17%;
+}	
 
-
+.line2 {
+	font-family: 'Josefin Slab', serif;
+    margin-top: 7.5em;
+    width: 85%;
+    padding-left: 0.3em;
+    margin-left: 3.3em;
+	
+}
 
 
 .myphoto {
@@ -83,7 +93,12 @@ body {
 	margin-left: auto;
 	position: relative;
 	opacity: .75;
+	margin-top: 5em;
 
+}
+
+.col-sm-6 {
+	width: 48% !important;
 }
 
 .thumbnail {

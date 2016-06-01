@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFEDDA;
+	background-color: rgba(255, 237, 218, 0.58);
+}
+
+/*<!-- border -->*/
+.top, .bottom, .left, .right {
+	background: #F1C3C2;
+	position: fixed;
+}
+
+.left, .right {
+	top: 0; 
+	bottom: 0;
+	width: 1em;
+}
+
+.left { 
+	left: 0; 
+}
+
+.right { 
+	right: 0; 
+}
+
+.top, .bottom {
+	left: 0; 
+	right: 0;
+	height: 1em;
+}
+
+.top { 
+	top: 0; 
+}
+
+.bottom { 
+	bottom: 0; 
+}
+
+
+.logo {
+    opacity: 0.55;
+    position: absolute;
+    background-color: #FFF4E9;
+    margin-left: 25%;
+    margin-top: 14%;
+    z-index: -1;
+    height: 8em;
+    width: 45em;
+
+}
+
+.mylogo {
+    width: 31em;
+    display: flex;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 11%;
+    z-index: 1;
+}
+
+.myphoto {
+    border-radius: 25%;
+    width: 40em;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    z-index: -2;
+    opacity: .8;
+
+}
