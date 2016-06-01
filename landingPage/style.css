@@ -78,3 +78,19 @@ body {
     opacity: .8;
 
 }
+
+.headtext1 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 3.4em;
+    position: absolute;
+    margin-left: 6.5em;
+    margin-top: 5em;
+    text-align: left;
+
+
+}
+
+.line1 {
+    text-align: center;
+    margin-bottom: -.2em;
+}
