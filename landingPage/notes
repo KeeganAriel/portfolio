@@ -8,6 +8,15 @@
 	$(this).animate({'height': '100px'}, 100);
 });
 
+
+logo on photo:
+               $('.myphoto').animate( {width: 280, height: 280, left: -278, top: 13}, 1500 );
+               $('.mylogo').animate( {width: 250, height: 'auto', left: -15 }, 1500 );
+               $('.logo').animate( {width: 285, height: 60, left: -280, top: -70 }, 1500 );
+            });
+
+
 logo accross top:
 
-    width: 1175px; left: -265px; top: -130px;
+                  $('.mylogo').animate({ width: 1175, left: -265, top: -130}, 1500);
+                    $('.logo').animate( {width: 0, }, 1500 );
