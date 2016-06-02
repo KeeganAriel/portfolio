@@ -116,8 +116,6 @@ body {
     font-family: 'Josefin Slab', serif;
     display: none;
     margin-left: 27em;
-
-    
 }
 
 .stText {
@@ -127,10 +125,8 @@ body {
 
 .things {
     display: flex;
-/*    margin-left: 10%;
-    margin-right: 10%;*/
     justify-content: center;
-    margin-bottom: 20em;
+    margin-bottom: 10em;
     margin-top: -1.25em;
 }
 
@@ -139,6 +135,34 @@ body {
 }
 
 .things .fa-heart {
+    font-size: .3em;
+    margin-top: .5em;
+}
+
+.design {
+/*    padding-top: 35em;*/
+    font-family: 'Josefin Slab', serif;
+    display: none;
+    margin-left: 27em;
+}
+
+.diText {
+    font-size: 3em;
+    text-align: center
+}
+
+.designs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6.75em;
+    margin-top: -1.25em;
+}
+
+.designs span{
+    margin: .5em;
+}
+
+.designs .fa-heart {
     font-size: .3em;
     margin-top: .5em;
 }
