@@ -10,7 +10,7 @@ $(document).ready(function () {
 		$('.strengths').slideDown(1500); 
 		$('.heart').slideDown(1300); 
 		$('.design').slideDown(1300);
-		$('.hide').slideDown(1300);
+		$('.hide').fadeIn( 3300);
 	});
 
 
